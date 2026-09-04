@@ -1,0 +1,29 @@
+K SELECTION
+k=2: inertia=189313.6, silhouette=0.3765
+k=3: inertia=149917.2, silhouette=0.3795
+k=4: inertia=125612.3, silhouette=0.3779
+k=5: inertia=102057.5, silhouette=0.3896
+k=6: inertia=88677.5, silhouette=0.3940
+k=7: inertia=79244.2, silhouette=0.3981
+k=8: inertia=72329.1, silhouette=0.3160
+k=9: inertia=67002.9, silhouette=0.3169
+k=10: inertia=62455.8, silhouette=0.3227
+
+Best k by silhouette score: 7
+
+Final model: k=4, silhouette score=0.3779
+
+CLUSTER PROFILES (mean values)
+         price_capped  minimum_nights  number_of_reviews  reviews_per_month  \
+cluster                                                                       
+0              179.13           12.05              13.41               0.77   
+1              127.07            4.68               8.52               0.51   
+2              118.40            2.42              98.19               3.92   
+3              162.24          244.61              12.41               0.27   
+
+         availability_365  count   pct  
+cluster                                 
+0                  288.88  12569  25.7  
+1                   24.87  28828  59.0  
+2                  154.38   7350  15.0  
+3                  215.41    123   0.3  
