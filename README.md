@@ -9,17 +9,17 @@ This project demonstrates data acquisition, cleaning, preprocessing, exploratory
 ## Files
 
 **Week 1 — Data Acquisition, Cleaning, and Preprocessing**
-- `clean_data.py` — full cleaning and EDA script (pandas, numpy, matplotlib, seaborn)
+- `clean_data.ipynb` — full cleaning and EDA script (pandas, numpy, matplotlib, seaborn)
 - `AB_NYC_2019.csv` — raw input dataset
 - `AB_NYC_2019_cleaned.csv` — cleaned output dataset (48,870 rows)
 - `Week1_Data_Cleaning_Report.docx` — full written report with methodology, code, and visualizations
 
 **Week 2 — Exploratory Data Analysis and Visualization**
-- `eda_analysis.py` — EDA script producing summary statistics, correlations, and 8 visualizations
+- `eda_analysis.ipynb` — EDA script producing summary statistics, correlations, and 8 visualizations
 - `Week2_EDA_Report.docx` — full written report with visualizations, code, and interpretation
 
 **Week 3 — Unsupervised Learning and Clustering Analysis**
-- `clustering_analysis.py` — K-Means clustering script (scikit-learn, pandas, matplotlib, seaborn)
+- `clustering_analysis.ipynb` — K-Means clustering script (scikit-learn, pandas, matplotlib, seaborn)
 - `AB_NYC_2019_clustered.csv` — output dataset with cluster assignments and PCA coordinates
 - `Week3_Clustering_Report.docx` — full written report with methodology, code, visualizations, and cluster interpretation
 
@@ -58,13 +58,13 @@ This project demonstrates data acquisition, cleaning, preprocessing, exploratory
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Week 1: cleaning
-python clean_data.py
+python clean_data.ipynb
 
 # Week 2: EDA (run after clean_data.py, uses its output)
-python eda_analysis.py
+python eda_analysis.ipynb
 
 # Week 3: clustering (run after clean_data.py, uses its output)
-python clustering_analysis.py
+python clustering_analysis.ipynb
 ```
 
 Week 1 outputs: `AB_NYC_2019_cleaned.csv` plus four PNG chart files.
